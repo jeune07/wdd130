@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;600&display=swap');
+
+  :root {
+    --primary-color: hwb(145 7% 0%);
+    --secondary-color: #3498DB;
+    --accent1-color: #10e93f;
+    --accent2-color: #030303;
+  
+    --heading-font: 'montserrat', serif;
+    --paragraph-font: 'Prompt', sans-serif;
+  
+    --nav-background-color: #2ECC71;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #3498DB;
+    --nav-hover-background-color: #3498DB;
+  }
+
+  h1,h2{
+    color:var(--secondary-color);
+    font-family: var(--heading-font);
+  }
+p{
+    color: var(--accent2-color);
+    font-size: 16px;
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+   
+}
+
+li{
+    list-style: none;
+}
