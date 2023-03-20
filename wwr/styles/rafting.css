@@ -31,3 +31,21 @@ p{
 li{
     list-style: none;
 }
+
+.hero{
+  position: relative;
+}
+
+.hero article {
+  position: relative;
+  top: 0px;
+} 
+
+
+.hero article img {
+  float: right;
+} 
+
+article,h1{
+  position: absolute;
+}
