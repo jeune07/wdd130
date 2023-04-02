@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a form to evaluate the knowledge in HTML and CSS" />
+    <link rel="stylesheet" href="quiz.css" />
+    <title>Basic HTML and CSS quiz</title>
+  </head>
+  <body>
+    <div class="quiz-form">
+      <form action="#">
+        <h1>Welcome to th HTML and CSS quiz</h1>
+        <fieldset>
+          <legend>Basic HTML and CSS quiz</legend>
+          <label for="q1">1- What does the acronym CSS stand for?</label>
+          <input type="text" name="q1" id="q1" />
+          <label for="q2">2- What are id and class attributes selected in CSS?</label>
+          <textarea id="q2" name="q2" ></textarea>
+          <label for="q3">3- Which of these are not a valid CSS comment?</label>
+          <select name="q3" id="q3">
+            <option value="" disabled selected>Select an option</option>
+            <option value="//">Single-line comment</option>
+            <option value="/* */">Multi-line comment</option>
+            <option value="#">This is not a valid CSS comment</option>
+          </select>
+          <label for="q4">4- What is the bottom margin given this declaration?</label>
+          <p>margin: 20px 40px 50px 15px;</p>
+          <input type="number" name="q4" id="q4" />
+          <button type="submit">Submit quiz</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

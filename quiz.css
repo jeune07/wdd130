@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(201, 93%, 65%);
+    font-family: Roboto; 
+}
+.quiz-form{
+    width: 500px;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+}
+input,textarea,select{
+    display: block;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+    
+}
+button[type="submit"]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #51d151;
+}
+
+label{
+    color: #160e0e;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+input,select{
+    height: 40px;
+}
+textarea{
+    height: 60px;
+}
+
+form p{
+    align-items: center;
+    background-color: #d3b136;
+    display: inline-block;
+}
