@@ -92,12 +92,8 @@ ul {
   display: flex;
   text-align: center;
   justify-content: center;
-  max-width: 100%;
-
- 
+  max-width: 100%; 
 }
-
-
 .hero article img {
   float: right;
   width:15%
@@ -138,6 +134,9 @@ footer{
   justify-items: center;
   align-items: center;
   background-color: #3d525f;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .centered-title {
@@ -162,4 +161,66 @@ footer .contact{
 
 .adventure h2{
   margin-top: -40px;
+}
+/*Contact page*/
+
+input,textarea,select{
+  display: block;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  font-family: Roboto;
+  font-size: 20px;  
+}
+
+.section-form{
+  /* width: 600px;
+  position: absolute;
+  left: 25%;
+  right: auto; */
+  width: 600px
+} 
+.team{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.team figcaption{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+} 
+
+.team div{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  margin-bottom: 600px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-form fieldset{
+  margin-bottom: 130px;
+}
+.check{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.check  input[type="checkbox"]{
+  width: 15px;
+}
+
+.form-map-info{
+  display: flex;
+}
+
+.info{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
 }
