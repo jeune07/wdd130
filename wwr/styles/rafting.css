@@ -171,6 +171,7 @@ input,textarea,select{
   border-radius: 15px;
   font-family: Roboto;
   font-size: 20px;  
+  height: 50px;
 }
 
 .section-form{
@@ -178,7 +179,8 @@ input,textarea,select{
   position: absolute;
   left: 25%;
   right: auto; */
-  width: 600px
+  width: 50%;
+  height: 100%;
 } 
 .team{
   display: flex;
@@ -202,21 +204,26 @@ input,textarea,select{
 }
 
 .section-form fieldset{
-  margin-bottom: 130px;
+  /* margin-bottom: 130px; */
+  height: 100%;
 }
 .check{
   display: flex;
   justify-content: flex-end;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+  align-items: flex-end;
 }
 
-.check  input[type="checkbox"]{
-  width: 15px;
+.check input[type="checkbox"] {
+  width: 35px;
 }
 
 .form-map-info{
   display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+  justify-content: center;
+  height: 610px;
 }
 
 .info{
@@ -224,3 +231,60 @@ input,textarea,select{
   width: 50%;
   flex-direction: column;
 }
+
+.section-form button{
+  width: 100%;
+  height: 50px;
+  background-color: #2ECC71;
+  border-radius: 15px;
+  font-family: Roboto;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+}
+.section-form label{
+  font-size: 20px;
+  font-family: Roboto;
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.section-form legend{
+  font-size: 30px;
+  font-family: Roboto;
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .section-form{
+    width: 100%;
+  }
+  .form-map-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .info{
+    width: 100%;
+  }
+  .team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team div{
+    margin-bottom: 0;
+  }
+  .team figcaption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team img{
+    width: 100%;
+  }
+}
+   */
