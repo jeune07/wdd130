@@ -21,11 +21,10 @@
     font-family: var(--heading-font);
   }
 p{
-    color: var(--accent2-color);
+    color:var(--accent2-color);
     font-size: 16px;
     font-family: var(--paragraph-font);
     font-weight: 400;
-   
 }
 
 li{
@@ -134,6 +133,7 @@ footer{
   justify-items: center;
   align-items: center;
   background-color: #3d525f;
+  color: #fff;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -288,3 +288,39 @@ input,textarea,select{
   }
 }
    */
+   .card img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+  }
+  
+  .card p {
+    padding: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .trip-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding-bottom: 10px
+
+  }
+
+  
