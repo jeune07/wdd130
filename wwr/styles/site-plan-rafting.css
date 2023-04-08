@@ -25,10 +25,42 @@
     color: var(--secondary-color);
   }
 
-  header {
-    padding: 20px;
-    background-color: var(--accent1-color);
+  header .nav-container {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 50px 2fr;
+    align-items: center;
+    border-bottom: 5px solid #ccc;
+    max-width: 100%;
+}
+  .logo-rapids img{
+    margin: 0 0.25rem 0 1rem;
+    width: 100px;
+    height: 100px;
   }
+
+  .nav-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-menu li {
+    flex: 1 1 100%;
+  }
+  
+  .nav-menu a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .nav-menu a:hover {
+    color: #3498DB;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
 
   .card {
     border-radius: 5px;
