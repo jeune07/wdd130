@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=" content infomation about White water Rafting">
+    <meta name="description" content="Welcome to rapids Runners">
+    <meta name="author" content="jeune">
+    
     <link rel="stylesheet" href="./styles/rafting.css">
 
-    <title>About White water Rafting</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
@@ -16,7 +18,7 @@
                 <img src="./images/Rafting.png" alt="Log Rapids Runners" class="logo">                
             </figure>
             <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About Us</a></li>
                 <li><a href="./trips.html">Trips</a></li>
                 <li><a href="./contact.html">Contact Us</a></li>
@@ -24,8 +26,73 @@
         </nav>
     </header>
     <main>
+        <div class="trip-card">
+            <h1 class="centered-title">
+              Our trips
+          </h1>
+              <div class="card">
+                  <img src="https://images.unsplash.com/photo-1508166466920-f65aa51f727c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Rafting Adventure">
+                  <div class="container">
+                    <h4><b>Rafting Adventure</b></h4>
+                    <p>Join us for an exciting day on the river! Our experienced guides will take you on a thrilling adventure through some of the most beautiful scenery in the area. This trip includes all necessary equipment and safety gear, and is suitable for all skill levels.</p>
+                    <p class="price">$99 per person</p>
+                    <button>Book Now</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="https://images.unsplash.com/photo-1512675628397-28288d1220ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80" alt="Rafting Adventure">
+                  <div class="container">
+                    <h4><b>Rafting Adventure</b></h4>
+                    <p>Join us for an exciting day on the river! Our experienced guides will take you on a thrilling adventure through some of the most beautiful scenery in the area. This trip includes all necessary equipment and safety gear, and is suitable for all skill levels.</p>
+                    <p class="price">$99 per person</p>
+                    <button>Book Now</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="https://images.unsplash.com/photo-1627920417369-62a2a9640744?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1468&q=80" alt="Rafting Adventure">
+                  <div class="container">
+                    <h4><b>Rafting Adventure</b></h4>
+                    <p>Join us for an exciting day on the river! Our experienced guides will take you on a thrilling adventure through some of the most beautiful scenery in the area. This trip includes all necessary equipment and safety gear, and is suitable for all skill levels.</p>
+                    <p class="price">$99 per person</p>
+                    <button>Book Now</button>
+                  </div>
+                </div>
+          </div> 
        
-        
+        <div class="concver">
+        <section class="section-form">
+            <form action="#">
+                <fieldset>
+                    <legend>Contact us</legend>
+                    <label for="username">Please tell us your name.</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your name here">
+                    <label for="userEmail" >What is your email.</label>
+                    <input type="mumber" name="phone" id="phone" placeholder="Enter your phone number">
+                    <label for="mumber" >What is your phone number.</label>
+                    <input type="text" name="adress" id="adress" placeholder="Enter your adress">
+                    <label for="adress" >What is your phone number.</label>
+                    <input type="email" name="userEmail" id="userEmail" placeholder="Enter your email here">
+                    <div class="radiooo">
+                    
+                    <label>General inquiry</label>
+                    <input type="radio" name="subject" value="general">
+                    <label>Reservation information</label>
+                    <input type="radio" name="subject" value="reservation">
+                    <label> Website suggestion</label>
+                    <input type="radio" name="subject" value="suggestion">
+                    </div>
+                    
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Write your message here"></textarea>
+                    <div class="check">
+                    <input type="checkbox" name="suscribe" id="suscribe">
+                    <label for="suscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Send</button>                        
+                </fieldset>
+            </form>
+        </section>
+    </div>
     </main>
     <footer>
         <h5>&copy; 2023 Rapids Runners Jeune Winsley. All rights reserved.</h5>
