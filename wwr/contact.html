@@ -16,7 +16,7 @@
                 <img src="./images/Rafting.png" alt="Log Rapids Runners" class="logo">                
             </figure>
             <ul class="nav-menu">
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="./about.html">About Us</a></li>
                 <li><a href="./trips.html">Trips</a></li>
                 <li><a href="./contact.html">Contact Us</a></li>
@@ -68,14 +68,22 @@
                         <legend>Contact us</legend>
                         <label for="username">Please tell us your name.</label>
                         <input type="text" name="username" id="username" placeholder="Enter your name here">
-
                         <label for="userEmail" >What is your email.</label>
+                        <input type="mumber" name="phone" id="phone" placeholder="Enter your phone number">
+                        <label for="mumber" >What is your phone number.</label>
+                        <input type="text" name="adress" id="adress" placeholder="Enter your adress">
+                        <label for="adress" >What is your phone number.</label>
                         <input type="email" name="userEmail" id="userEmail" placeholder="Enter your email here">
-                        <select name="subject" id="select">
-                            <option value="">General inquiry</option>
-                            <option value="">Reservation infomation</option>
-                            <option value="">Website sugestion</option>
-                        </select>
+                        <div class="radiooo">
+                        
+                        <label>General inquiry</label>
+                        <input type="radio" name="subject" value="general">
+                        <label>Reservation information</label>
+                        <input type="radio" name="subject" value="reservation">
+                        <label> Website suggestion</label>
+                        <input type="radio" name="subject" value="suggestion">
+                        </div>
+                        
                         <label for="message">Message</label>
                         <textarea name="message" id="message" placeholder="Write your message here"></textarea>
                         <div class="check">
